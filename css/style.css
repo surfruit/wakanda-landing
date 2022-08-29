@@ -28,6 +28,8 @@ h1, h2, p, a {
   width: 1116px;
   padding: 24px 0px;
   gap: 127px;
+  display: flex;
+  flex-direction: row;
 }
 
 ul {
@@ -37,15 +39,4 @@ ul {
 .header {
   display: flex;
   flex-direction: row;
-}
-.header .logo-list {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  gap: 8px;
-}
-.header .logo-list .logo-item .wakanda {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
 }/*# sourceMappingURL=style.css.map */
