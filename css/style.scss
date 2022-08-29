@@ -13,7 +13,12 @@ $stars-color:#FFC806;
     font-family: 'SF Pro Display', sans-serif;
     
 }
-
+a{
+    text-decoration: none;
+}
+h1,h2,p,a{
+    color: $text-color-main;
+}
 .wrapper{
 display: flex;
 flex-direction: column;
@@ -22,6 +27,30 @@ padding: 0px;
 position: absolute;
 width: 1440px;
 }
+
+.container{
+    width: 1116px;
+    padding: 24px 0px;
+    gap: 127px;
+}
+
+ul{
+    list-style-type: none;
+}
 .header{
-    
+    display: flex;
+    flex-direction: row;
+    .logo-list{
+        display: flex;
+        flex-direction: row;
+        align-items:baseline;
+        gap: 8px;
+        .logo-item{
+            .wakanda{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+        }
+        }
+    }
 }
